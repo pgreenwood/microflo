@@ -90,7 +90,15 @@
                 "pin": { "id": 0 }
             }
         },
-
+        "AdsrEnvelope": { "id": 189,
+            "inPorts": {
+                "gate": { "id": 0 },
+                "attack": { "id": 1 },
+                "decay": { "id": 2 },
+                "sustain": { "id": 3 },
+                "release": { "id": 4 }
+            }
+        },
 
         "ArduinoUno": {
             "id": 50,
