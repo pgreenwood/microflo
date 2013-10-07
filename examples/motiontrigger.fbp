@@ -1,0 +1,8 @@
+pidSensor(MonitorPin) OUT -> IN gate(Gate)
+enable(MonitorPin) OUT -> ENABLE gate
+gate OUT -> IN led(DigitalWrite)
+
+# Config
+board(ArduinoUno) PIN2 -> PIN pidSensor
+board PIN3 -> PIN enable
+board PIN10 -> PIN led
